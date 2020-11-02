@@ -1,4 +1,10 @@
-@ Semantica if then else: if(x==0) x++; else y++; con x -> R0, y -> R1
+@ Semantica if then else: 
+
+@ if(x==0) 
+@ 	x++;
+@ else 
+@ 	y++;
+@ con x -> R0, y -> R1
 
 @ Definisco dove sta il mio codice:
 
@@ -15,7 +21,7 @@ main:	mov R1, #7
 	sub r1, r1, #1
 	b end
 then:	add r0, r0, #1
-end:	mov R0, R0
+end:	mov R0, R0 @ Questa operazione non fa nulla ma mi permette di uscire dall'if
 
 @ syscall per la exit
 	mov r7, #1
