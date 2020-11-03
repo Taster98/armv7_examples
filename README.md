@@ -10,6 +10,13 @@ This repository will contain some examples of ARMv7 Assembler written during the
 ## Functions
 * <b>Function with array usage </b> <a href="Functions/arrayfunc.s" alt="Function with array usage..">View Source</a>
 * <b>Printf usage </b> <a href="Functions/printf.s" alt="Printf usage..">View Source</a>
-* <b>gets usage </b> <a href="Functions/gets.s" alt="Usage of gets function..">View Source</a>
+* <b>String to upper </b> <a href="Functions/strupper.s" alt="string to upper..">View Source</a>
+
+## Excercises
+* <b>Inner product</b> <a href="Excercises/innerproduct.s" alt="Excercise to calculate inner product..">View Source</a>
+* <b>Media dei voti</b> <a href="Excercises/mediavoti.s" alt="Excercise to calculate grades avg..">View Source</a>
+
+## To be continued
+
 ## LICENSE
 All the provided code is completely free; see <a href="LICENSE"> GNU General Public License</a>
