@@ -13,7 +13,7 @@ This repository will contain some examples of ARMv7 Assembler written during the
 * <b>String to upper </b> <a href="Functions/strupper.s" alt="string to upper..">View Source</a>
 
 ## Excercises
-* <b>Inner product</b> <a href="Excercises/innerproduct.s" alt="Excercise to calculate inner product..">View Source</a> | <a href="Excercises/innerproductfunc.s" alt="Excercise to calculate inner product..">View Source of function</a>
+* <b>Inner product</b> <a href="Excercises/innerproduct.s" alt="Excercise to calculate inner product..">View Source</a>
 * <b>Media dei voti</b> <a href="Excercises/mediavoti.s" alt="Excercise to calculate grades avg..">View Source</a>
 
 ## To be continued
