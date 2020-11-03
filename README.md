@@ -16,6 +16,8 @@ This repository will contain some examples of ARMv7 Assembler written during the
 * <b>Inner product</b> <a href="Excercises/innerproduct.s" alt="Excercise to calculate inner product..">View Source</a>
 * <b>Media dei voti</b> <a href="Excercises/mediavoti.s" alt="Excercise to calculate grades avg..">View Source</a>
 
+## Recursive functions
+* <b>Factorial</b> <a href="RFunctions/fact.s" alt="recursive factorial function">View Source</a>
 ## To be continued
 
 ## LICENSE
