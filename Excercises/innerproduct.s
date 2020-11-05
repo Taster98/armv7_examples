@@ -55,6 +55,6 @@ end:	ldr r0, =outp
 	ldr r1, [r6]
 	bl printf
 	@ ora che ho chiamato la printf devo ripescare i miei registri e il lr
-	pop {r4-46, lr}
+	pop {r4-r6, lr}
 	mov r0, #0
 	mov pc, lr
