@@ -49,6 +49,7 @@ div:	cmp r3, #0
 	b div
 endtwo:	ldr r0, =outp
 	ldr r1, [r6]
+	sub r1, r1, #1	@ decremento di 1 perché il -1 non va contato
 	bl printf
 	pop {r4-r6, lr}
 	mov r0, #0
