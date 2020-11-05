@@ -24,7 +24,7 @@ res:	.word 0
 @ definisco il main
 @ in r3 metto la dimensione, in r2 metto il risultato, in r1 metto il secondo vettore,
 @ in r0 il primo vettore
-main:	push{r4-r6,lr}
+main:	push {r4-r6,lr}
 	ldr r3, =dim
 	ldr r3, [r3]
 	ldr r0, =first
