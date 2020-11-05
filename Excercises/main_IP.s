@@ -28,5 +28,4 @@ end:    mov r1, r0
         ldr r0, =outp
         bl printf
         mov r0, #0
-        pop {lr}
-        mov pc, lr
+        pop {pc}
