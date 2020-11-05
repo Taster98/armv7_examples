@@ -4,7 +4,8 @@
 @	res += a[i] * b[i];
 @ printf("Il prodotto è uguale a: %d\n",res);
 @ In asm è un po' diverso:
-
+@ VERSIONE CORRETTA: I registri dal 4 al 6 vanno salvati perché non permangono al ritorno della funzione main.
+@ va salvato anche il lr perché dopo la chiamata della printf questo rimarrebbe sennò cambiato, ed è male.
 .data
 @ definisco la stringa da passarre alla printf
 
@@ -23,7 +24,8 @@ res:	.word 0
 @ definisco il main
 @ in r3 metto la dimensione, in r2 metto il risultato, in r1 metto il secondo vettore,
 @ in r0 il primo vettore
-main:	ldr r3, =dim
+main:	push{r4-r6,lr}
+	ldr r3, =dim
 	ldr r3, [r3]
 	ldr r0, =first
 	ldr r1, =second
@@ -52,6 +54,7 @@ for:	cmp r3, #0
 end:	ldr r0, =outp
 	ldr r1, [r6]
 	bl printf
-	
-	mov r7, #1
-	svc 0
+	@ ora che ho chiamato la printf devo ripescare i miei registri e il lr
+	pop {r4-46, lr}
+	mov r0, #0
+	mov pc, lr

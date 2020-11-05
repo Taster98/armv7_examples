@@ -10,6 +10,8 @@
 @ res = res/n;
 @ printf("La media è: %d\n",res);
 @ In asm è un po' diverso:
+@ VERSIONE CORRETTA: I registri dal 4 al 6 vanno salvati perché non permangono al ritorno della funzione main.
+@ va salvato anche il lr perché dopo la chiamata della printf questo rimarrebbe sennò cambiato, ed è male.
 
 .data
 voti:	.word 30, 28, 27, 24, 28, 18, -1
@@ -18,7 +20,7 @@ res:	.word 0
 .text
 .global main
 
-main:	
+main:	push {r4-r6, lr}
 	@ il risultato lo metto in r0, il numero di voti in r1, il voto corrente in r2, l'indice in r3
 	mov r0, #0
 	mov r1, #0
@@ -49,5 +51,6 @@ endtwo:	ldr r0, =outp
 	ldr r1, [r6]
 	sub r1, r1, #1
 	bl printf
-	mov r7, #1
-	svc 0
+	pop {r4-r6, lr}
+	mov r0, #0
+	mov pc, lr
