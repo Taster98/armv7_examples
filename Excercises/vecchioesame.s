@@ -1,3 +1,7 @@
+@ Il testo praticamente chiedeva se, dato un vettore, la sua
+@ lunghezza e un intero da cercare, si scrivesse una funzione
+@ cerca che restituisse 1 se il valore era presente, 0 altrimenti
+@ il main era già dato
 .data
 v:	.word 1,2,3,4,5,6,7,8
 outp:	.string "Il valore è presente: %d\n"
@@ -10,6 +14,9 @@ main:	mov r0, #8
 	push {lr}
 	bl cerca
 	pop {pc}
+@ FIN QUI ERA IL TESTO
+
+@ L'ES INIZIA QUI
 cerca:	mov r3, r0 @ dim
 	mov r0, #0 @ risultato
 	ldr r4, [r1] 
