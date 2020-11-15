@@ -28,7 +28,3 @@ end:	pop {pc}
 abs:	mov r2, #-1
 	mul r0, r0, r2
 	mov pc, lr
-	
-	
-	
-

@@ -43,23 +43,3 @@ pow:	cmp r1, #1
 	pop {r1, lr}
 	mul r0, r1, r0
 	mov pc, lr
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

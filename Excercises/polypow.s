@@ -48,24 +48,3 @@ forp:	cmp r3, #0
 	sub r3, r3, #1
 	b forp
 endp:	pop {r1-r3,pc}
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
