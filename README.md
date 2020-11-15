@@ -16,6 +16,12 @@ This repository will contain some examples of ARMv7 Assembler written during the
 * <b>Inner product</b> <a href="Excercises/innerproduct.s" alt="Excercise to calculate inner product..">View Source</a>
 * <b>Inner product with function </b> <a href="Excercises/main.s" alt="Main">Main </a> | <a href="Excercises/IP.s" alt="Function for inner product"> Function</a>
 * <b>Media dei voti</b> <a href="Excercises/mediavoti.s" alt="Excercise to calculate grades avg..">View Source</a>
+* <b>Differenza di quadrati</b> <a href="Excercises/diffquad.s" alt="Excercise to calculate square difference">View Source</a>
+* <b>Differenza di quadrati assoluta</b> <a href="Excercises/diffquadabs.s" alt="Excercise to calculate square difference in abs values">View Source</a>
+* <b>Polinomi di grado n</b> <a href="Excercises/polypow.s" alt="Excercise to calculate polynomial exponentials.">View Source</a>
+* <b>Polinomi di grado n ricorsiva</b> <a href="Excercises/polypowrec.s" alt="Excercise to calculate polynomial exponentials, recursively.">View Source</a>
+* <b>Polinomi di grado n in C</b> <a href="Excercises/mypow.s" alt="Excercise to calculate polynomial exponentials. Usage of function in C.">View Source</a>
+* <b>Serie di Fibonacci</b> <a href="Excercises/fibonacci.s" alt="Excercise to calculate Fibonacci serie.">View Source</a>
 
 ## Recursive functions
 * <b>Factorial</b> <a href="RFunctions/fact.s" alt="recursive factorial function">View Source</a>
