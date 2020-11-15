@@ -22,6 +22,7 @@ This repository will contain some examples of ARMv7 Assembler written during the
 * <b>Polinomi di grado n ricorsiva</b> <a href="Excercises/polypowrec.s" alt="Excercise to calculate polynomial exponentials, recursively.">View Source</a>
 * <b>Polinomi di grado n in C</b> <a href="Excercises/mypow.s" alt="Excercise to calculate polynomial exponentials. Usage of function in C.">View Source</a> | <a href="Excercises/main.c" alt="C program to test it">Main in C</a>
 * <b>Serie di Fibonacci</b> <a href="Excercises/fibonacci.s" alt="Excercise to calculate Fibonacci serie.">View Source</a> | <a href="Excercises/mainFibo.s" alt="ASM program to test it with ATOI func">Main in ASM</a>
+* <b>Funzione ricerca</b> <a href="Excercises/vecchioesame.s" alt="Excercise to a number inside a vector of int elements.">View Source</a>
 
 ## Recursive functions
 * <b>Factorial</b> <a href="RFunctions/fact.s" alt="recursive factorial function">View Source</a>
