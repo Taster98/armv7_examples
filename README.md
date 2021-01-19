@@ -25,8 +25,13 @@ This repository will contain some examples of ARMv7 Assembler written during the
 * <b>Funzione ricerca</b> <a href="Excercises/vecchioesame.s" alt="Excercise to a number inside a vector of int elements.">View Source</a>
 
 ## Recursive functions
-* <b>Factorial</b> <a href="RFunctions/fact.s" alt="recursive factorial function">View Source</a>
-## To be continued
+* <b>Factorial</b> <a href="RFunctions/fact.s" alt="recursive factorial function">View Solution</a>
+## Fourth Assignment
+* <b>Excercise A</b> <a href="4Quiz/A/text.c" alt="TEXT">View Text</a> | <a href="4Quiz/A/main.c" alt="MAIN">View C-Main</a> | <a href="4Quiz/A/solution.s" alt="Excercise A">View Solution</a>
+* <b>Excercise B</b> <a href="4Quiz/B/text.c" alt="TEXT">View Text</a> | <a href="4Quiz/B/main.c" alt="MAIN">View C-Main</a> |  <a href="4Quiz/B/solution.s" alt="Excercise B">View Solution</a>
+* <b>Excercise C</b> <a href="4Quiz/C/text.c" alt="TEXT">View Text</a> | <a href="4Quiz/C/main.c" alt="MAIN">View C-Main</a> |  <a href="4Quiz/C/solution.s" alt="Excercise C">View Solution</a>
+* <b>Excercise D</b> <a href="4Quiz/D/text.c" alt="TEXT">View Text</a> | <a href="4Quiz/D/main.c" alt="MAIN">View C-Main</a> |  <a href="4Quiz/D/solution.s" alt="Excercise D">View Solution</a>
+* <b>Excercise E</b> <a href="4Quiz/E/text.c" alt="TEXT">View Text</a> | <a href="4Quiz/E/main.c" alt="MAIN">View C-Main</a> |  <a href="4Quiz/E/solution.s" alt="Excercise E">View Solution</a>
 
 ## LICENSE
 All the provided code is completely free; see <a href="LICENSE"> GNU General Public License</a>
