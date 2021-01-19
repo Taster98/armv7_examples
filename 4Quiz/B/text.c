@@ -1,10 +1,11 @@
 int match(char * uno, char * due, int l) {
   int res = 1;
-  for(int i=0; i<l; i++)
+  for(int i=0; i<l; i++){
     if(uno[i] != due[i]) {
       res = 0;
       break;
     }
+  }
   return(res);
 }
   
